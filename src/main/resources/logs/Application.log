@@ -1,0 +1,5 @@
+INFO    2022-05-17 14:24:54,980 [main] com.BaseClasses.Baseclass  - Test execution started
+INFO    2022-05-17 14:24:56,856 [main] com.BaseClasses.Baseclass  - Edge Browser Launched
+INFO    2022-05-17 14:24:59,062 [main] com.BaseClasses.Baseclass  - Navigated to : null
+INFO    2022-05-17 14:25:01,711 [main] com.BaseClasses.Baseclass  - Clicking on :GmailLink_XPATH
+INFO    2022-05-17 14:25:01,904 [main] com.BaseClasses.Baseclass  - Clicking on :Email_CSS

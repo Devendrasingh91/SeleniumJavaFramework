@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31525" started-at="2022-05-17T14:24:34 IST" finished-at="2022-05-17T14:25:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31525" started-at="2022-05-17T14:24:34 IST" finished-at="2022-05-17T14:25:05 IST">
+      <class name="testCases.Roughtest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.Roughtest@4982cc36]" name="setup" is-config="true" duration-ms="4304" started-at="2022-05-17T14:24:54 IST" finished-at="2022-05-17T14:24:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="roughtest(java.util.Hashtable)[pri:0, instance:testCases.Roughtest@4982cc36]" name="roughtest" duration-ms="5621" started-at="2022-05-17T14:24:59 IST" data-provider="dps" finished-at="2022-05-17T14:25:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=singh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roughtest -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:testCases.Roughtest@4982cc36]" name="tearsDown" is-config="true" duration-ms="958" started-at="2022-05-17T14:25:04 IST" finished-at="2022-05-17T14:25:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- testCases.Roughtest -->
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.LoginTest@4c51cf28]" name="setup" is-config="true" duration-ms="13155" started-at="2022-05-17T14:24:34 IST" finished-at="2022-05-17T14:24:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@4c51cf28]" name="loginTest" duration-ms="5970" started-at="2022-05-17T14:24:47 IST" data-provider="dps" finished-at="2022-05-17T14:24:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=dev}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:testCases.LoginTest@4c51cf28]" name="tearsDown" is-config="true" duration-ms="897" started-at="2022-05-17T14:24:54 IST" finished-at="2022-05-17T14:24:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
